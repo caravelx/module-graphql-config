@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="caravel" translate="label" sortOrder="500">
+            <label>Caravel</label>
+        </tab>
+        <section id="caravel_graphql" translate="label" type="text" sortOrder="1001" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>GraphQl</label>
+            <tab>caravel</tab>
+            <resource>Caravel_GraphQlConfig::config</resource>
+            <group id="general" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General</label>
+                <field id="complexity" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0" canRestore="0">
+                    <label>Query Complexity</label>
+                </field>
+                <field id="depth" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0" canRestore="0">
+                    <label>Query Depth</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
