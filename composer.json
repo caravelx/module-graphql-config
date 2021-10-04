@@ -1,6 +1,6 @@
 {
   "name": "caravelx/module-graphql-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This module allow to configure the GraphQL complexity and depth inside the Magento administration\n",
   "type": "magento2-module",
   "require": {
